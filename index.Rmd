@@ -170,7 +170,7 @@ Try one of these questions:
 
 - New example: Social Determinants of Health
 - Prototyping with spatial data frames (shapefiles, sf)
-
+  - Example: https://tladeras.shinyapps.io/oregon_county/
 ---
 
 # Call to action 
