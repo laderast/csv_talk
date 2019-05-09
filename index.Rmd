@@ -16,7 +16,6 @@ output:
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 ```
----
 # Overview: Data Scavenger Hunts
 
 - Introduction
@@ -43,15 +42,12 @@ options(htmltools.dir.version = FALSE)
 - Visualization is empowering
 
 --
-
 - Visualization is accessible
 
 --
-
 - Visualization lets us have a conversation
 
 --
-
 - Visualization/Interpreting is a valuable skill
 
 ---
@@ -83,6 +79,10 @@ options(htmltools.dir.version = FALSE)
 ![Jessica Minnier and Ted Laderas](image/burro3.png)
 ]
 
+.footnote[
+Jessica Minnier and Ted Laderas
+]
+
 ---
 # What? Burro Overview
 
@@ -94,7 +94,10 @@ options(htmltools.dir.version = FALSE)
 ]
 
 .pull-right[
-  ![](image/vis_framework.png)
+
+```{r eval=TRUE, echo=FALSE, fig.retina=2}
+  knitr::include_graphics("image/vis_framework.png")
+```
 ]
 
 ---
@@ -135,11 +138,16 @@ Try one of these questions:
 ---
 # Who has participated?
 
+- Graduate Students
+  - Portland State Students
+  - Cardiovascular Risk Data (synthetic data sets)
 - Graduate Students (clinical data wrangling course)
+  - Clinical and Bioinformatics incoming students
   - Sleep Heart Health Study Data
 - BioData Club Members (NHANES Scavenger Hunt)
   - NHANES Data
 - Undergraduate Students (Data Literacy)
+  - Public Health Education
   - NHANES Data
   
 ---
@@ -150,20 +158,24 @@ Try one of these questions:
 - "I liked the dataset and the open curiosity element of the workshop."
 
 ---
-# Who: Is this useful for Citizen Data?
+# Who: Useful for Citizen Data Efforts?
 
 - What would it take to make `burro` useful for citizen data efforts?
+    - Better "just in time" documentation
 - Can it be used to teach graph literacy and data curiosity?
+- Can we use this framework to democratize data science?
 
 ---
 # Who: Spatial Data Exploration
 
 - New example: Social Determinants of Health
 - Prototyping with spatial data frames (shapefiles, sf)
-  - Example app: 
+
 ---
 
 # Call to action 
+
+We need beginners/novices!
 
 - Need help with usability testing/documentation
 - Need help with workflows for different data types
@@ -178,4 +190,7 @@ These slides: http://bit.ly/csv_hunt
 - @tladeras
 - More about data scavenger hunts and `burro`:
     - http://laderast.github.io/burro/
-- BioData Club: http://biodata-club.github.io
+- Working on CONTRIBUTING.md/Issues for `burro`
+- BioData Club: 
+    - Local portland club that focuses on learning about data
+    - http://biodata-club.github.io
